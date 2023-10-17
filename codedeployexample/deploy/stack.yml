@@ -20,7 +20,7 @@ Parameters:
 Mappings:
   RegionMap:
     'eu-west-2':
-      AMI: 'ami-030594f92006445fd'
+      AMI: ''
 Resources:
   ArtifactStore:
     Type: "AWS::S3::Bucket"
