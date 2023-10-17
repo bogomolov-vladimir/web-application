@@ -84,7 +84,7 @@ resource "aws_security_group" "vm_sg" {
   }
 
     tags = {
-    Name = "application-sg"
+    Name = "vm_sg"
   }
 
 }
