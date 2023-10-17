@@ -35,6 +35,9 @@ Run the below command to tear down the application.
 
 ### Varaibles
 var.access_key - Enter a value: "YOUR AWS ACCESS KEY"
+
 var.ami - Enter a value: "YOUR AWS AMI ID"
+
 var.key_name - Enter a value: "PUBLIC KEY NAME"
+
 var.secret_key - Enter a value: "YOUR AWS SECRET KEY"
