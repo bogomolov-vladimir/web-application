@@ -29,7 +29,7 @@ This will provision the required infrastructure and provides the EC2 instance pu
 The next step is to install the required softwares in the EC2 instance and deploy the php application along with the MySQL database. This is done using ansible.
 1. Open the inventory.yml file under ansible directory and replace 0.0.0.0 with the public IP copied at the end of part 1.
 2. Replace the contents of the ./ansible/secrets/ssh.private with your private key. This is the private key corresponding to the public key used in Part 1 while provisioning the infrastructure using terraform.
-3. Run the ansible playbook using the below command
+3. Run the ansible playbook using the below command from the ansible folder.
     - ansible-playbook -i inventory.yml application.yml
 
 ### Part 3: Tear down the application
