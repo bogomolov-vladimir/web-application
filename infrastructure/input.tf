@@ -21,10 +21,10 @@ resource "aws_key_pair" "key_pair" {
 
 resource "local_file" "private_key" {
     content = tls_private_key.rsa-4096.private_key_pem
-    filename = var.key_name
+    filename = ./secrets/var.key_name
 }
 
-data "http" "my_public_ip" {
+data "http" "app_public_ip" {
     url = "https://ifconfig.co/json"
     request_headers = {
         Accept = "application/json"
@@ -32,5 +32,5 @@ data "http" "my_public_ip" {
 }
 
 locals {
-  ifconfig_co_json = jsondecode(data.http.my_public_ip.body)
+  ifconfig_co_json = jsondecode(data.http.app_public_ip.response_body)
 }

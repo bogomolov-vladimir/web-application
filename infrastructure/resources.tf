@@ -39,7 +39,7 @@ resource "aws_instance" "app_vm" {
 
 resource "aws_eip" "elastic_ip" {
   instance = aws_instance.app_vm.id
-  vpc      = true
+  domain      = "vpc"
 }
 
 resource "aws_security_group" "vm_sg" {
