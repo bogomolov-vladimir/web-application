@@ -3,6 +3,7 @@ This project is built to host an application in AWS EC2 instance.
 * AWS resources
 * Terraform
 * Ansible
+* Git
 
 ### Prerequisites
 * Create a free tier AWS account.
