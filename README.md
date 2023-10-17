@@ -9,7 +9,7 @@ This project is built to host an application in AWS EC2 instance.
 * Create an IAM user with programmable access and make a note of the access and secret keys.
 
 ### Installation
-1. git clone https://github.com/bogomolov-vladimir/web-application.git
+1. git clone [https://github.com/bogomolov-vladimir/web-application.git](https://github.com/bogomolov-vladimir/web-application-aws-ec2-instance..git)
 2. Install Terraform (https://www.terraform.io/downloads.html)
 3. Install Ansible (https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 
