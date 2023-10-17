@@ -1,8 +1,5 @@
-## About The Project
 This project is built to host an application in AWS EC2 instance.
-
 ### Built With
-The project is built using,
 * AWS resources
 * Terraform
 * Ansible
@@ -32,7 +29,7 @@ The next step is to install the required softwares in the EC2 instance and deplo
 3. Run the ansible playbook using the below command from the ansible folder.
     - ansible-playbook -i inventory.yml application.yml
 
-### Part 3: Tear down the application
+### Part 3: Destroy the application
 Run the below command to tear down the application.
     - terrafrom destroy
 
