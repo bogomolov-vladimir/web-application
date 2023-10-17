@@ -84,7 +84,7 @@ resource "aws_security_group" "vm_sg" {
   }
 
     tags = {
-    Name = "erply_sg"
+    Name = "application-sg"
   }
 
 }
