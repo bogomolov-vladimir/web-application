@@ -1,5 +1,5 @@
 This project is built to host an application in AWS EC2 instance.
-### Built With
+### Build With
 * AWS resources
 * Terraform
 * Ansible
